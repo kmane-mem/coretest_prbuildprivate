@@ -2,7 +2,7 @@ language: python
 
 python:
  # - 2.6
- # - 3.3
+  - 3.3
   - 3.5
   #- pypy3
   
@@ -70,4 +70,4 @@ integrations:
       on_failure: always
       on_pull_request: always  
       on_cancel: always
-    
+      
